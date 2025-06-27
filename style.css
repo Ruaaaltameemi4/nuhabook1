@@ -1,0 +1,74 @@
+.book-title {
+  font-size: 32px;
+  text-align: center;
+  background: linear-gradient(to right, #007B5E, #A1C4FD);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.book-title span {
+  color: #ffd700; /* golden name */
+  font-weight: bold;
+}
+
+
+/* Arabic-friendly layout with background image */
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  background-image: url('images/book-bg.jpg');
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #222;
+  text-align: right;
+  padding: 20px 10px;
+  min-height: 100vh;
+}
+
+/* Transparent background for text content */
+h1, h3 {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Book section styling */
+.pdf-list {
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pdf-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.pdf-item:last-child {
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0e639c;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 5px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #004466;
+}
